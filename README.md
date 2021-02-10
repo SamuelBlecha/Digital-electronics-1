@@ -10,7 +10,10 @@
 
 [Useless link](https://github.com/SamuelBlecha/Digital-electronics-1/blob/main/README.md)
 
-
+Tabul | ka
+------------ | -------------
+tato | tabulka
+nic | neobsahuje
 
 ```vhdl
 begin
