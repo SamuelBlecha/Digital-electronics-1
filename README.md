@@ -8,7 +8,7 @@
 ⋅⋅2. stale podobne, ale este inaksie nieco dalsie
 3. posledne nieco
 
-[Useless link](https://github.com/SamuelBlecha/Digital-electronics-1/edit/main/README.md)
+[Useless link](https://github.com/SamuelBlecha/Digital-electronics-1/blob/main/README.md)
 
 
 
