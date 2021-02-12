@@ -63,6 +63,6 @@ begin
 end architecture dataflow;
 ```
 
-![Distributive law simulation:](Images/DistLaw.png)
+![Distributive law simulation:](Images/DistLaws.png)
 
 [Distributive Laws>](https://www.edaplayground.com/x/vted)
