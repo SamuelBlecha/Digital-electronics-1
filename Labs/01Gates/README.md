@@ -23,17 +23,6 @@ end architecture dataflow;
 
 ```
 
-| **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)NAND** | **f(c,b,a)NOR**
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 | 1 | 1 | 1
-| 0 | 0 | 1 | 1 | 1 | 1
-| 0 | 1 | 0 | 0 | 0 | 0
-| 0 | 1 | 1 | 0 | 0 | 0
-| 1 | 0 | 0 | 0 | 0 | 0
-| 1 | 0 | 1 | 1 | 1 | 1
-| 1 | 1 | 0 | 0 | 0 | 0
-| 1 | 1 | 1 | 0 | 0 | 0
-
 ![De Morgan's law simulation:](Images/DeMorgan.png)
 
 [De Morgan](https://www.edaplayground.com/x/BE99)
