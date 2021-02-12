@@ -1,5 +1,5 @@
-#Lab01 - Gates
-##De Morgan's law
+# **Lab01 - Gates**
+## *De Morgan's law*
 
 ```vhdl
 entity gates is
@@ -23,15 +23,16 @@ end architecture dataflow;
 
 ```
 
-c|b|a|f(c,b,a)|f(c,b,a)NAND|f(c,b,a)NOR
-0|0|0|1|1|1
-0|0|1|1|1|1
-0|1|0|0|0|0
-0|1|1|0|0|0
-1|0|0|0|0|0
-1|0|1|1|1|1
-1|1|0|0|0|0
-1|1|1|0|0|0
+| **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a)NAND** | **f(c,b,a)NOR**
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 1 | 1 | 1
+| 0 | 0 | 1 | 1 | 1 | 1
+| 0 | 1 | 0 | 0 | 0 | 0
+| 0 | 1 | 1 | 0 | 0 | 0
+| 1 | 0 | 0 | 0 | 0 | 0
+| 1 | 0 | 1 | 1 | 1 | 1
+| 1 | 1 | 0 | 0 | 0 | 0
+| 1 | 1 | 1 | 0 | 0 | 0
 
 ![De Morgan's law simulation:](Snímka obrazovky 2021-02-10 175617.png)
 
