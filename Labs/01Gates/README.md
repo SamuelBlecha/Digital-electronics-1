@@ -34,7 +34,7 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 | 0 | 0
 | 1 | 1 | 1 | 0 | 0 | 0
 
-![De Morgan's law simulation:](Snímka obrazovky 2021-02-10 175617.png)
+![De Morgan's law simulation:](Images/DeMorgan.png)
 
 [EDA playground](https://www.edaplayground.com/x/uinF)
 
