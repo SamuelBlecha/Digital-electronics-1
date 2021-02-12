@@ -36,5 +36,33 @@ end architecture dataflow;
 
 ![De Morgan's law simulation:](Images/DeMorgan.png)
 
-[EDA playground](https://www.edaplayground.com/x/uinF)
+[De Morgan](https://www.edaplayground.com/x/BE99)
 
+## **Distributive Laws**
+
+```vhdl
+entity dist is
+    port(
+        x_i		: in  std_logic;
+        y_i		: in  std_logic;
+        z_i		: in  std_logic;
+        f_mult1	: out std_logic;
+        f_mult2	: out std_logic;
+        f_add1	: out std_logic;
+        f_add2	: out std_logic
+    );
+end entity dist;
+
+architecture dataflow of dist is
+begin
+    f_mult1  <= (x_i and y_i) or (x_i and z_i);
+    f_mult2  <= x_i and (y_i or z_i);
+    f_add1  <= (x_i or y_i) and (x_i or z_i);
+    f_add2  <= x_i or (y_i and z_i);
+
+end architecture dataflow;
+```
+
+![Distributive law simulation:](Images/DistLaw.png)
+
+[Distributive Laws>](https://www.edaplayground.com/x/vted)
