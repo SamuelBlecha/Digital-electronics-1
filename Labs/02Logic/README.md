@@ -116,11 +116,11 @@ p_stimulus : process
         
         s_b <= "1111"; s_a <= "0000"; wait for 100 ns;
         assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
-        report "Test failed for input combination: 00, 01" severity error;
+        report "Test failed for input combination: 1111, 0000" severity error;
         
         s_b <= "1100"; s_a <= "1101"; wait for 100 ns;
         assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
-        report "Test failed for input combination: 00, 01" severity error;
+        report "Test failed for input combination: 1100, 1101" severity error;
         
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
@@ -133,13 +133,21 @@ end architecture testbench;
 
 Listing of simulator console output with simulated error:
 
-analyze design.vhd>
-analyze testbench.vhd>
-elaborate tb_comparator_4bit>
-testbench.vhd:51:9:@0ms:(report note): Stimulus process started>
-testbench.vhd:89:9:@900ns:(assertion error): Test failed for input combination: 00, 01>
-testbench.vhd:97:9:@1us:(report note): Stimulus process finished>
-Finding VCD file...>
-./dump.vcd>
+analyze design.vhd
+
+analyze testbench.vhd
+
+elaborate tb_comparator_4bit
+
+testbench.vhd:51:9:@0ms:(report note): Stimulus process started
+
+testbench.vhd:89:9:@900ns:(assertion error): Test failed for input combination: 1111, 0000
+
+testbench.vhd:97:9:@1us:(report note): Stimulus process finished
+
+Finding VCD file...
+
+./dump.vcd
+
 
 EDA playground link: (https://www.edaplayground.com/x/9bYx)
