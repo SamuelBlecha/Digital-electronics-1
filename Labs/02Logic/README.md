@@ -134,20 +134,12 @@ end architecture testbench;
 Listing of simulator console output with simulated error:
 
 analyze design.vhd
-
 analyze testbench.vhd
-
 elaborate tb_comparator_4bit
-
 testbench.vhd:51:9:@0ms:(report note): Stimulus process started
-
 testbench.vhd:89:9:@900ns:(assertion error): Test failed for input combination: 1111, 0000
-
 testbench.vhd:97:9:@1us:(report note): Stimulus process finished
-
 Finding VCD file...
-
 ./dump.vcd
-
 
 EDA playground link: (https://www.edaplayground.com/x/9bYx)
