@@ -22,3 +22,15 @@
 -finished example EDA plazground: (https://www.edaplayground.com/x/8QqQ)
 
 ## **2 - 2-bit comparator**
+
+The Karnaugh for the equals function:
+
+![Karnaugh map for equals function](Images/kmap_equals.png)
+
+The Karnaugh for "B is greater than A" function:
+
+![Karnaugh map for "B is greater than A" function](Images/kmap_B_greater_A.png)
+
+The Karnaugh for "B is less than A" function:
+
+![Karnaugh map for "B is less than A" function](Images/kmap_B_less_than_A.png)
