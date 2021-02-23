@@ -34,10 +34,8 @@ The Karnaugh map for "B is less than A" function:
 ![Karnaugh map for "B is less than A" function](Images/kmap_B_less_than_A.png)
 
 Simplified equations:
-\begin{align*}
-    greater_{SoP}^{min.}=B_{1}\cdot \bar{A_{1}}+B_{1}\cdot B_{0}\cdot \bar{A_{0}}+B_{0}\cdot \bar{A_{1}}\cdot \bar{A_{0}}
-    less_{PoS}^{min.}=(\bar{B_{1}}+A_{1})\cdot(\bar{B_{0}}+A_{1})\cdot (A_{0}+A_{1})\cdot (\bar{B_{1}}+\bar{B_{0}})\cdot (\bar{B_{1}}+A_{0})
-\end{align*}
+![Simplified B greater than A](Images/greater_SoP.png)
+![Simplified B less than A](Images/less_PoS.png)
 
 Finished example EDA playground: (https://www.edaplayground.com/x/8QqQ)
 
