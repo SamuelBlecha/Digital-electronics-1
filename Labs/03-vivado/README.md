@@ -24,8 +24,8 @@ Table of switches:
 Switches - schematic:  
 ![Switches](Images/NX7_Switches.png)
 
-Table of switches:
-| **Led N.** | **Pin** |
+Table of LEDs:
+| **LED N.** | **Pin** |
 | :-: | :-: |
 | 0 | IO_L18P_T2_A24_15 |
 | 1 | IO_L24P_T3_RS1_15 |
