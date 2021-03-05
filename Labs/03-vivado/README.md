@@ -84,14 +84,19 @@ Simulated time waveforms:
 ![Simulated time waveforms](Images/simulated_time_waveforms.png)
 
 ## **3. Tutorial**
-Novy subor:	  Uz v uvodnej obrazovke je moznost, alebo file-project-new...  
+Novy subor:	 
+            Uz v uvodnej obrazovke je moznost, alebo file-project-new...  
 		    RTL project - zatial nechat tak  
 		    Vytvorit zdrojovy subor s rozumnym nazvom. Target language VHDL  
 		    Constraints - pre simulaciu v pc netreba, podstatne pri praci s realnym cipom  
-		    Default part - Boards, Nexys A7-50T    
+		    Default part - Boards, Nexys A7-50T  
+
 Uprava source file (design)   
-            - v okne sources > design sources > rozkliknut source file    
+            - v okne sources > design sources > rozkliknut source file  
+
 Testbench file:  
             File > Add Sources > Add or create simulation sources > Create file  
-		    -nachadza sa v okne sources > simulation sources    
-Simulacia: 	 Flow > Run simulation > Run Behavioral simulation  
+		    -nachadza sa v okne sources > simulation sources  
+
+Simulacia:
+	 Flow > Run simulation > Run Behavioral simulation  
