@@ -21,7 +21,7 @@ Table of switches:
 | 14 | IO_L19N_T3_A09_D25_VREF_14 |
 | 15 | IO_L21P_T3_DQS_14 |
 
-Switches - schematic:
+Switches - schematic:  
 ![Switches](Images/NX7_Switches.png)
 
 Table of switches:
@@ -45,7 +45,7 @@ Table of switches:
 | 15 | IO_L21N_T3_DQS_A06_D22_14 |
 
 
-Leds - schematic:
+Leds - schematic:  
 ![Leds](Images/NX7_Leds.png)
 
 
@@ -84,13 +84,14 @@ Simulated time waveforms:
 ![Simulated time waveforms](Images/simulated_time_waveforms.png)
 
 ## **3. Tutorial**
-Novy subor:	Uz v uvodnej obrazovke je moznost, alebo file-project-new...
-		    RTL project - zatial nechat tak
-		    Vytvorit zdrojovy subor s rozumnym nazvom. Target language VHDL
-		    Constraints - pre simulaciu v pc netreba, podstatne pri praci s realnym cipom
-		    Default part - Boards, Nexys A7-50T
-Uprava source file (design) 
-            - v okne sources > design sources > rozkliknut source file
-Testbench file: File > Add Sources > Add or create simulation sources > Create file
-		    -nachadza sa v okne sources > simulation sources
-Simulacia: 	Flow > Run simulation > Run Behavioral simulation
+Novy subor:	Uz v uvodnej obrazovke je moznost, alebo file-project-new...  
+		    RTL project - zatial nechat tak  
+		    Vytvorit zdrojovy subor s rozumnym nazvom. Target language VHDL  
+		    Constraints - pre simulaciu v pc netreba, podstatne pri praci s realnym cipom  
+		    Default part - Boards, Nexys A7-50T  
+Uprava source file (design)   
+            - v okne sources > design sources > rozkliknut source file  
+Testbench file:  
+            File > Add Sources > Add or create simulation sources > Create file  
+		    -nachadza sa v okne sources > simulation sources  
+Simulacia: 	Flow > Run simulation > Run Behavioral simulation  
