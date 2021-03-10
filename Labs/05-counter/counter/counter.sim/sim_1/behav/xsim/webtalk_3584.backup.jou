@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 10 12:38:03 2021
+# Process ID: 3584
+# Current directory: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/counter.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/counter.sim/sim_1/behav/xsim/xsim.dir/tb_clock_enable_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/counter.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/counter.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/counter.sim/sim_1/behav/xsim/xsim.dir/tb_clock_enable_behav/webtalk/xsim_webtalk.tcl -notrace
