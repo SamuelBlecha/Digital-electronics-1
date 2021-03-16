@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------
 --
--- Testbench for clock enable circuit.
+-- Testbench for N-bit Up/Down binary counter.
 -- Nexys A7-50T, Vivado v2020.1.1, EDA Playground
 --
 -- Copyright (c) 2020-Present Tomas Fryza
@@ -11,40 +11,43 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
 
 ------------------------------------------------------------------------
 -- Entity declaration for testbench
 ------------------------------------------------------------------------
-entity tb_clock_enable is
+entity tb_cnt_up_down is
     -- Entity of testbench is always empty
-end entity tb_clock_enable;
+end entity tb_cnt_up_down; 
 
 ------------------------------------------------------------------------
 -- Architecture body for testbench
 ------------------------------------------------------------------------
-architecture testbench of tb_clock_enable is
+architecture testbench of tb_cnt_up_down is
 
-    constant c_MAX               : natural := 10;
+    -- Number of bits for testbench counter
+    constant c_CNT_WIDTH         : natural := 3;
     constant c_CLK_100MHZ_PERIOD : time    := 10 ns;
 
     --Local signals
     signal s_clk_100MHz : std_logic;
     signal s_reset      : std_logic;
-    signal s_ce         : std_logic;
+    signal s_en         : std_logic;
+    signal s_cnt_up     : std_logic;
+    signal s_cnt        : std_logic_vector(c_CNT_WIDTH - 1 downto 0);
 
 begin
-    -- Connecting testbench signals with clock_enable entity
+    -- Connecting testbench signals with cnt_up_down entity
     -- (Unit Under Test)
-    uut_ce : entity work.clock_enable
+    uut_cnt : entity work.cnt_up_down
         generic map(
-            g_MAX => c_MAX
-        )   -- Note that there is NO comma or semicolon between
-            -- generic map section and port map section
+            g_CNT_WIDTH  => c_CNT_WIDTH
+        )
         port map(
-            clk   => s_clk_100MHz,
-            reset => s_reset,
-            ce_o  => s_ce
+            clk      => s_clk_100MHz,
+            reset    => s_reset,
+            en_i     => s_en,
+            cnt_up_i => s_cnt_up,
+            cnt_o    => s_cnt
         );
 
     --------------------------------------------------------------------
@@ -58,7 +61,7 @@ begin
             s_clk_100MHz <= '1';
             wait for c_CLK_100MHZ_PERIOD / 2;
         end loop;
-        wait;                           -- Process is suspended forever
+        wait;
     end process p_clk_gen;
 
     --------------------------------------------------------------------
@@ -67,15 +70,13 @@ begin
     p_reset_gen : process
     begin
         s_reset <= '0';
-        wait for 28 ns;
+        wait for 33 ns;
         
         -- Reset activated
         s_reset <= '1';
-        wait for 153 ns;
+        wait for 120 ns;
 
-        -- Reset deactivated
         s_reset <= '0';
-
         wait;
     end process p_reset_gen;
 
@@ -85,6 +86,18 @@ begin
     p_stimulus : process
     begin
         report "Stimulus process started" severity note;
+
+        -- Enable counting
+        s_en     <= '1';
+        
+        -- Change counter direction
+        s_cnt_up <= '1';
+        wait for 380 ns;
+        s_cnt_up <= '0';
+        wait for 220 ns;
+
+        -- Disable counting
+        s_en     <= '0';
 
         report "Stimulus process finished" severity note;
         wait;

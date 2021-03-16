@@ -64,4 +64,3 @@ begin
     end process p_clk_ena;
 
 end architecture Behavioral;
-
