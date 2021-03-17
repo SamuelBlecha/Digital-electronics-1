@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 17 16:26:04 2021
+# Process ID: 21896
+# Current directory: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.runs/synth_1/top.vds
+# Journal file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a50ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23440
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1015.078 ; gain = 0.000
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2715] syntax error near ) [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd:70]
+ERROR: [Synth 8-2029] formal clk has no actual or default value [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd:31]
+INFO: [Synth 8-994] clk is declared here [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:21]
+INFO: [Synth 8-994] reset is declared here [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:22]
+INFO: [Synth 8-994] data0_i is declared here [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:24]
+INFO: [Synth 8-994] data1_i is declared here [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:25]
+INFO: [Synth 8-994] data2_i is declared here [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:26]
+INFO: [Synth 8-994] data3_i is declared here [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:27]
+INFO: [Synth 8-994] dp_i is declared here [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:29]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd:25]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 1015.078 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 17 16:27:08 2021...

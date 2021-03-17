@@ -2,10 +2,10 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Mar 17 16:01:54 2021
-# Process ID: 2848
+# Start of session at: Wed Mar 17 13:52:52 2021
+# Process ID: 22656
 # Current directory: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23420 D:\Samo\Skola\VUT_FEKT\Druhy_Rocnik\Druhy_semester\Digitalni_Elektronika\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17248 D:\Samo\Skola\VUT_FEKT\Druhy_Rocnik\Druhy_semester\Digitalni_Elektronika\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
 # Log file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/vivado.log
 # Journal file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter\vivado.jou
 #-----------------------------------------------------------
@@ -13,13 +13,17 @@ start_gui
 open_project D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/counter.xpr
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
 Current project path is 'D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter'
-WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/counter.gen/sources_1'.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 17 13:54:58 2021...
+r/counter/counter.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
-open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 987.277 ; gain = 0.000
+open_project: Time (s): cpu = 00:01:04 ; elapsed = 00:00:58 . Memory (MB): peak = 1263.270 ; gain = 0.000
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Mar 17 16:22:01 2021...
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 17 15:18:01 2021...

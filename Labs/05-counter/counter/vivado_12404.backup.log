@@ -2,10 +2,10 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Mar 17 16:01:54 2021
-# Process ID: 2848
+# Start of session at: Tue Mar 16 22:37:00 2021
+# Process ID: 12404
 # Current directory: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23420 D:\Samo\Skola\VUT_FEKT\Druhy_Rocnik\Druhy_semester\Digitalni_Elektronika\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11940 D:\Samo\Skola\VUT_FEKT\Druhy_Rocnik\Druhy_semester\Digitalni_Elektronika\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
 # Log file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/vivado.log
 # Journal file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter\vivado.jou
 #-----------------------------------------------------------
@@ -19,7 +19,7 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
-open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 987.277 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:18 . Memory (MB): peak = 993.195 ; gain = 0.000
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Mar 17 16:22:01 2021...
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 16 22:39:58 2021...
