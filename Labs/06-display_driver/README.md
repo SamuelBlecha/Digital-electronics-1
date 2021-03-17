@@ -1,6 +1,9 @@
 # **06 - Display driver**
 ## **1. Timing**
-```vhdl
+Timing waveforms:
+![timing](Images/timing.png)
+Source code:  
+```javascript
 {
   signal:
   [
