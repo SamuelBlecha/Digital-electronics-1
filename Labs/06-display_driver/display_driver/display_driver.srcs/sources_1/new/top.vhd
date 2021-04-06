@@ -65,7 +65,7 @@ begin
             "1111" => AN(8-1 downto 5-1),
             
             dp_o => DP,            
-            dp_i => "0111",
+            dp_i => "0111", 
             --- WRITE YOUR CODE HERE
         );
 

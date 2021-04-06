@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_d_latch_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_d_latch" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="509501fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="96"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/tb_d_latch/s_arst" type="logic">
+      <obj_property name="ElementShortName">s_arst</obj_property>
+      <obj_property name="ObjectShortName">s_arst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_d_latch/s_en" type="logic">
+      <obj_property name="ElementShortName">s_en</obj_property>
+      <obj_property name="ObjectShortName">s_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_d_latch/s_d" type="logic">
+      <obj_property name="ElementShortName">s_d</obj_property>
+      <obj_property name="ObjectShortName">s_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_d_latch/s_q" type="logic">
+      <obj_property name="ElementShortName">s_q</obj_property>
+      <obj_property name="ObjectShortName">s_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_d_latch/s_q_bar" type="logic">
+      <obj_property name="ElementShortName">s_q_bar</obj_property>
+      <obj_property name="ObjectShortName">s_q_bar</obj_property>
+   </wvobject>
+</wave_config>
