@@ -57,7 +57,7 @@ begin
         
     p_clk_gen : process
         begin
-            while now < 1000 ns loop         -- 75 periods of 100MHz clock
+            while now < 1000 ns loop
                 s_clk <= '0';
                 wait for c_CLK_PERIOD / 2;
                 s_clk <= '1';
@@ -69,11 +69,14 @@ begin
     p_reset_gen : process
         begin
             s_arst <= '0';
-            wait for 53 ns;        
+            wait for 58 ns;        
             s_arst <= '1';
-            wait for 15 ns;
+            wait for 10 ns;
+            assert(s_q = '0' and s_q_bar = '1')
+            report "reset error" severity error;
+            wait for 5 ns;
             s_arst <= '0';
-            wait for 58 ns;
+            wait for 30 ns;
             s_arst <= '1';
             wait;
         end process p_reset_gen;
@@ -81,10 +84,23 @@ begin
     p_stimulus : process
         begin
             report "Stimulus process started" severity note;
-    
-            --for loop
-            
             s_d <= '0';
+            wait for 13ns;
+            s_d <= '1';
+            wait for 10ns;
+            s_d <= '0';
+            wait for 5ns;
+            assert(s_q = '0' and s_q_bar = '1')
+            report "ff error" severity error;
+            wait for 5 ns;            
+            s_d <= '1';
+            wait for 5ns;
+            assert(s_q = '1' and s_q_bar = '0')
+            report "ff error" severity error;
+            wait for 5 ns;
+            s_d <= '0';
+            wait for 10ns;
+            s_d <= '1';
             wait for 10ns;
             s_d <= '1';
             wait for 10ns;
@@ -93,8 +109,6 @@ begin
             s_d <= '1';
             wait for 10ns;
             s_d <= '0';
-            wait for 10ns;
-            s_d <= '1';
             
             report "Stimulus process finished" severity note;
             wait;

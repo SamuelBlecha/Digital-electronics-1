@@ -1,6 +1,6 @@
 Vivado Simulator 2020.2
 Time resolution is 1 ps
 Note: Stimulus process started
-Time: 0 ps  Iteration: 0  Process: /tb_d_ff_arst/p_stimulus  File: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_d_ff_arst.vhd
+Time: 0 ps  Iteration: 0  Process: /tb_t_ff_rst/p_stimulus  File: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_t_ff_rst.vhd
 Note: Stimulus process finished
-Time: 50 ns  Iteration: 0  Process: /tb_d_ff_arst/p_stimulus  File: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_d_ff_arst.vhd
+Time: 293 ns  Iteration: 0  Process: /tb_t_ff_rst/p_stimulus  File: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_t_ff_rst.vhd

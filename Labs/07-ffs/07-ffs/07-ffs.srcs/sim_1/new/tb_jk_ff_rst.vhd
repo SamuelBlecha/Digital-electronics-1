@@ -58,46 +58,46 @@ uut_jk_ff_rst : entity work.jk_ff_rst
         );
         
         
-        p_clk_gen : process
-    begin
-        while now < 1000 ns loop         -- 75 periods of 100MHz clock
-            s_clk <= '0';
-            wait for c_CLK_PERIOD / 2;
-            s_clk <= '1';
-            wait for c_CLK_PERIOD / 2;
-        end loop;
-        wait;
-    end process p_clk_gen;
+    p_clk_gen : process
+        begin
+            while now < 1000 ns loop
+                s_clk <= '0';
+                wait for c_CLK_PERIOD / 2;
+                s_clk <= '1';
+                wait for c_CLK_PERIOD / 2;
+            end loop;
+            wait;
+        end process p_clk_gen;
     
     p_reset_gen : process
-           begin
-               s_rst <= '0';
-               wait for 53 ns;        
-               s_rst <= '1';
-               wait for 15 ns;
-               s_rst <= '0';
-               wait for 50 ns;
-               s_rst <= '1';
-               wait;
-           end process p_reset_gen;
+        begin
+            s_rst <= '0';
+            wait for 43 ns;        
+            s_rst <= '1';
+            wait for 13 ns;
+            s_rst <= '0';
+            wait for 70 ns;
+            s_rst <= '1';
+            wait;
+        end process p_reset_gen;
            
-     p_stimulus : process
-            begin
-                report "Stimulus process started" severity note;
+    p_stimulus : process
+         begin
+             report "Stimulus process started" severity note;
 
-                s_j <= '0';
-                s_k <= '0';
-                wait for 24ns;
-                s_j <= '1';
-                s_k <= '0';
-                wait for 30ns;
-                s_j <= '0';
-                s_k <= '1';
-                wait for 30ns;
-                s_j <= '1';
-                s_k <= '1';
-                wait for 30ns;       
-                report "Stimulus process finished" severity note;
-                wait;
-            end process p_stimulus;
+             s_j <= '0';
+             s_k <= '0';
+             wait for 24ns;
+             s_j <= '1';
+             s_k <= '0';
+             wait for 40ns;
+             s_j <= '0';
+             s_k <= '1';
+             wait for 30ns;
+             s_j <= '1';
+             s_k <= '1';
+             wait for 30ns;       
+             report "Stimulus process finished" severity note;
+             wait;
+         end process p_stimulus;
 end Behavioral;
