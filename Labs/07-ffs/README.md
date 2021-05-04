@@ -1,6 +1,7 @@
 # **07 - Latches and Flip-flops**
 ## **1. Characteristic equations and completed tables for D, JK, T flip-flops**  
-Characteristic equations:
+Characteristic equations:  
+  
 ![equations](Images/equations.png)
 
 | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |

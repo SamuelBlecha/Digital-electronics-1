@@ -2,12 +2,13 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon May  3 16:28:26 2021
-# Process ID: 17368
+# Start of session at: Thu Apr 15 14:58:05 2021
+# Process ID: 11928
 # Current directory: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26928 D:\Samo\Skola\VUT_FEKT\Druhy_Rocnik\Druhy_semester\Digitalni_Elektronika\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17600 D:\Samo\Skola\VUT_FEKT\Druhy_Rocnik\Druhy_semester\Digitalni_Elektronika\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
 # Log file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/vivado.log
 # Journal file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/05-counter/counter/counter.xpr
+update_compile_order -fileset sources_1

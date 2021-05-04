@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 14 15:54:28 2021
+# Process ID: 21180
+# Current directory: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/07-ffs/07-ffs
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1724 D:\Samo\Skola\VUT_FEKT\Druhy_Rocnik\Druhy_semester\Digitalni_Elektronika\Digital-electronics-1\Labs\07-ffs\07-ffs\07-ffs.xpr
+# Log file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/07-ffs/07-ffs/vivado.log
+# Journal file: D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/07-ffs/07-ffs\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Samo/Skola/VUT_FEKT/Druhy_Rocnik/Druhy_semester/Digitalni_Elektronika/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.xpr
+update_compile_order -fileset sources_1
